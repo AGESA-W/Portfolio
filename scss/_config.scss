@@ -12,10 +12,11 @@ $background-opacity:0.5;
         &#bg-img{
             background:$home-image;
             background-attachment: fixed;
+            background-position: center;
             background-size:cover;
 
             .overlay{
-                position: absolute;
+                position:absolute;
                 top:0;
                 right:0;
                 width: 100%;
